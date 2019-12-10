@@ -1,484 +1,351 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<html lang="en">
 <head>
-
-    <!-- Basic Page Needs
-  ================================================== -->
-	<meta charset="utf-8">
-	<title>贰壹肆</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-	
-    <!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- CSS
-	================================================== -->
-  	<link rel="stylesheet" href="css/zerogrid.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/lightbox.css">
-	
-	<!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	
-	<link rel="stylesheet" href="css/menu.css">
-	<script src="js/jquery1111.min.js" type="text/javascript"></script>
-	<script src="js/script.js"></script>
-	
-	<!-- Owl Carousel Assets -->
-    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
-	<!-- <link href="owl-carousel/owl.theme.css" rel="stylesheet"> -->
-    
-	
-	<!--[if lt IE 8]>
-       <div style=' clear: both; text-align:center; position: relative;'>
-         <a href="http://windows.microsoft.com/en-US/internet-explorer/Items/ie/home?ocid=ie6_countdown_bannercode">
-           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-        </a>
-      </div>
-    <![endif]-->
-    <!--[if lt IE 9]>
-		<script src="js/html5.js"></script>
-		<script src="js/css3-mediaqueries.js"></script>
-	<![endif]-->
-	
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Love Cigar-我们的Blog</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="skin/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="skin/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="skin/css/chocolat.css" type="text/css" media="screen">
+<!-- chocolate css for gallery light box-->
+<!-- animation -->
+<link href="skin/css/animate.css" rel="stylesheet" type="text/css" media="all">
+<!-- //animation -->
+<link href="skin/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<script src="skin/js/jquery-1.11.1.min.js"></script>
+<script src="skin/js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- onlinefonts -->
+<link href="http://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+<!-- //onlinefonts -->
 </head>
-
-<body>
-<div class="wrap-body">
-	<div class="header">
-		<div id='cssmenu' class="align-right">
-			<ul>
-			   <li class="active"><a href='index.html'><span></span></a></li>
-			   <li class=' has-sub'><a href='archive.html'><span>博客</span></a>
-				  <ul>
-					 <li class='has-sub'><a href='#'><span>博客1</span></a>
-						<ul>
-						   <li><a href='#'><span>索引</span></a></li>
-						   <li class='last'><a href='#'><span>索引</span></a></li>
-						</ul>
-					 </li>
-					 <li class='has-sub'><a href='#'><span>博客2</span></a>
-						<ul>
-						   <li><a href='#'><span>索引</span></a></li>
-						   <li class='last'><a href='#'><span>索引</span></a></li>
-						</ul>
-					 </li>
-				  </ul>
-			   </li>
-			   <li><a href='#'><span>相册</span></a></li>
-			   <li><a href='single.html'><span>关于</span></a></li>
-			   <li class='last'><a href='contact.html'><span>联络</span></a></li>
-			</ul>
-		</div>
-	</div>
-		<!--////////////////////////////////////Container-->
-		<section id="container">
-			<div class="wrap-container">
-				<section class="content-box box-1">
-					<div class="zerogrid thebanner">
-						<div class="wrap-box"><!--Start Box-->
-							<div class="row">
-								<div class="">
-									<div class="row">
-										<div class="col-1-2">
-											<a href="index.html"><img src="images/logo.png"></a>
-										</div>
-										<div class="col-1-2">
-											<form id="form-container" action="" class="f-right">
-												<!--<input type="submit" id="searchsubmit" value="" />-->
-												<a class="search-submit-button" href="javascript:void(0)">
-													<i class="fa fa-search"></i>
-												</a>
-												<div id="searchtext">
-													<input type="text" id="s" name="s" placeholder="Search Something...">
-												</div>
-											</form>
-										</div>
-									</div>
-								</div>
-								<div id="owl-slide" class="owl-carousel">
-									<div class="item">
-										<img src="images/slider-1.jpg" />
-									</div>
-									<div class="item">
-										<img src="images/slider-2.jpg" />
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-----------------content-box-2-------------------->
-				<section class="content-box box-2">
-					<div class="zerogrid">
-						<div class="wrap-box"><!--Start Box-->
-							<div class="row">
-								<div class="col-1-4">
-									<div class="wrapper">
-										<div class="portfolio-box">
-											<img src="images/img_5-370x370.jpg" class="img-responsive" alt="">
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-category text-faded">
-														分类
-													</div>
-													<div class="project-name">
-														<a href="single.html" style="color: #fff">工程名</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-1-4">
-									<div class="wrapper">
-										<div class="portfolio-box">
-											<img src="images/img_6-370x370.jpg" class="img-responsive" alt="">
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-category text-faded">
-														分类
-													</div>
-													<div class="project-name">
-														<a href="single.html" style="color: #fff">工程名</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-1-4">
-									<div class="wrapper">
-										<div class="portfolio-box">
-											<img src="images/img_7-370x370.jpg" class="img-responsive" alt="">
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-category text-faded">
-														分类
-													</div>
-													<div class="project-name">
-														<a href="single.html" style="color: #fff">工程名</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-1-4">
-									<div class="wrapper">
-										<div class="portfolio-box">
-											<img src="images/img_8-370x370.jpg" class="img-responsive" alt="">
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-category text-faded">
-														分类
-													</div>
-													<div class="project-name">
-														<a href="single.html" style="color: #fff">工程名</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-1-4">
-									<div class="wrapper">
-										<div class="portfolio-box">
-											<img src="images/img_9-370x370.jpg" class="img-responsive" alt="">
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-category text-faded">
-														分类
-													</div>
-													<div class="project-name">
-														<a href="single.html" style="color: #fff">工程名</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-1-4">
-									<div class="wrapper">
-										<div class="portfolio-box">
-											<img src="images/img_10-370x370.jpg" class="img-responsive" alt="">
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-category text-faded">
-														分类
-													</div>
-													<div class="project-name">
-														<a href="single.html" style="color: #fff">工程名</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-1-4">
-									<div class="wrapper">
-										<div class="portfolio-box">
-											<img src="images/img_18-370x370.jpg" class="img-responsive" alt="">
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-category text-faded">
-														分类
-													</div>
-													<div class="project-name">
-														<a href="single.html" style="color: #fff">工程名</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-1-4">
-									<div class="wrapper">
-										<div class="portfolio-box">
-											<img src="images/img_5-370x370.jpg" class="img-responsive" alt="">
-											<div class="portfolio-box-caption">
-												<div class="portfolio-box-caption-content">
-													<div class="project-category text-faded">
-														分类
-													</div>
-													<div class="project-name">
-														<a href="single.html" style="color: #fff">工程名</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<div class="tlinks">全球唯一官网 <a href="http://www.贰壹肆.top/" >贰壹肆</a></div>
-				<!-----------------content-box-3-------------------->
-				<section class="content-box boxstyle-1 box-3">
-					<div class="zerogrid">
-						<div class="row wrap-box"><!--Start Box-->
-							<div class="header t-center">
-								<div class="wrapper">
-									<h2 class="color-yellow">FULL SERVICE CATERING, SERVICE STAFF, RENTALS, FLORAL DESIGN</h2>
-									<span>Nulla ipsum dolor lacus, suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat</span>
-								</div>
-							</div>	
-							<div class="row">
-								<div class="col-1-4">
-									<div class="wrap-col post">
-										<div class="item-container">
-											<div class="item-caption">
-												<div class="item-caption-inner">
-													<div class="item-caption-inner1">
-														<a class="example-image-link" href="images/portfolio-1.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-															<i class="fa fa-search"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<img src="images/portfolio-1-thumb.jpg" alt=""/>
-										</div>
-										<h3>Banquet</h3>
-										<p>His primis omittam ...</p>
-										<a class="button" href="#">Learn More</a>
-									</div>
-								</div>
-								<div class="col-1-4">
-									<div class="wrap-col post">
-										<div class="item-container">
-											<div class="item-caption">
-												<div class="item-caption-inner">
-													<div class="item-caption-inner1">
-														<a class="example-image-link" href="images/portfolio-2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-															<i class="fa fa-search"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<img src="images/portfolio-2-thumb.jpg" alt=""/>
-										</div>
-										<h3>Banquet</h3>
-										<p>His primis omittam ...</p>
-										<a class="button" href="#">Learn More</a>
-									</div>
-								</div>
-								<div class="col-1-4">
-									<div class="wrap-col post">
-										<div class="item-container">
-											<div class="item-caption">
-												<div class="item-caption-inner">
-													<div class="item-caption-inner1">
-														<a class="example-image-link" href="images/portfolio-3.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-															<i class="fa fa-search"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<img src="images/portfolio-3-thumb.jpg" alt=""/>
-										</div>
-										<h3>Banquet</h3>
-										<p>His primis omittam ...</p>
-										<a class="button" href="#">Learn More</a>
-									</div>
-								</div>
-								<div class="col-1-4">
-									<div class="wrap-col post">
-										<div class="item-container">
-											<div class="item-caption">
-												<div class="item-caption-inner">
-													<div class="item-caption-inner1">
-														<a class="example-image-link" href="images/portfolio-4.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-															<i class="fa fa-search"></i>
-														</a>
-													</div>
-												</div>
-											</div>
-											<img src="images/portfolio-4-thumb.jpg" alt=""/>
-										</div>
-										<h3>Banquet</h3>
-										<p>His primis omittam ...</p>
-										<a class="button" href="#">Learn More</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				
-				<!-----------------content-box-5-------------------->
-				<section class="content-box boxstyle-1 box-5">
-					<div class="zerogrid">
-						<div class="row wrap-box"><!--Start Box-->
-							<div class="col-2-3">
-								<div class="header">
-									<div class="wrapper">
-										<h2 class="color-yellow">LATEST FROM THE BLOG</h2>
-									</div>
-								</div>
-								<article>
-									<div class="art-header">
-										<a href="#"><h3>In pede mi, aliquet sit amet, euismod in,auctor ut, ligul.</h3></a>
-										<div class="info">Posted on June 22, 2010 in: <a href="#">Event</a></div>
-									</div>
-									<div class="art-content">
-										<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-									</div>
-									<a class="button" href="#">Learn More</a>
-									<div class="line"></div>
-								</article>
-								<article>
-									<div class="art-header">
-										<a href="#"><h3>In pede mi, aliquet sit amet, euismod in,auctor ut, ligul.</h3></a>
-										<div class="info">Posted on June 22, 2010 in: <a href="#">Event</a></div>
-									</div>
-									<div class="art-content">
-										<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-									</div>
-									<a class="button" href="#">Learn More</a>
-									<div class="line"></div>
-								</article>
-								<article>
-									<div class="art-header">
-										<a href="#"><h3>In pede mi, aliquet sit amet, euismod in,auctor ut, ligul.</h3></a>
-										<div class="info">Posted on June 22, 2010 in: <a href="#">Event</a></div>
-									</div>
-									<div class="art-content">
-										<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. labore et dolore magna aliquyam erat, sed diam voluptua.</p>
-									</div>
-									<a class="button" href="#">Learn More</a>
-								</article>
-							</div>
-							<div class="col-1-3">
-								<div class="r-slidebar">
-									<div class="wrap-col">
-										<div class="post">
-											<h5 class="color-red">LATEST COMMENTS</h5>
-											<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing eli...</a>
-											<a href="#">Nastsea labore et dolore magames niausy aliquam quaerat voluptatem.</a>
-											<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing eli...</a>
-											<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing eli...</a>
-										</div>
-										<div class="post">
-											<h5 class="color-blue">FEES & HOURS</h5>
-											<p>Nastsea labore et dolore magames niausy aliquam quaerat voluptatem.</p>
-										</div>
-										<div class="post">
-											<h5 class="color-yellow">ENROLLING YOUR CHILD</h5>
-											<p>Nastsea labore et dolore magames niausy aliquam quaerat voluptatem.</p>
-										</div>
-										<div class="post">
-											<h5 class="color-green">INFO FOR PARENTS</h5>
-											<p>Nastsea labore et dolore magames niausy aliquam quaerat voluptatem.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				
-			</div>
-		</section>
-		<!--////////////////////////////////////Footer-->
-		<footer>
-			<div class="wrap-footer">
-				<div class="zerogrid">
-					<div class="row">
-						<div class="col-1-3">
-							<div class="wrap-col">
-								<p>Copyright &copy; 2016.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-							</div>
-						</div>
-						<div class="col-1-3">
-							<div class="wrap-col">
-								<ul class="social-buttons">
-									<li><a href="#"><i class="fa fa-twitter"></i></a>
-									</li>
-									<li><a href="#"><i class="fa fa-facebook"></i></a>
-									</li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-1-3">
-							<div class="wrap-col">
-								<ul class="quick-link">
-									<li><a href="#">Privacy Policy</a></li>
-									<li><a href="#">Terms of Use</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-<script src="js/lightbox-plus-jquery.min.js"></script>
-<!-- carousel -->
-	<script src="owl-carousel/owl.carousel.js"></script>
-    <script>
-    $(document).ready(function() {
-      $("#owl-slide").owlCarousel({
-        autoPlay: 3000,
-        items : 1,
-		itemsDesktop : [1199,1],
-		itemsDesktopSmall : [979,1],
-		itemsTablet : [768, 1],
-        itemsMobile : [479, 1],
-		navigation: true,
-		navigationText: ['<i class="fa fa-chevron-left fa-5x"></i>', '<i class="fa fa-chevron-right fa-5x"></i>'],
-		pagination: false
-      });
-    });
-    </script>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- header -->
+<div class="header-w3layouts"> 
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"> <span class="sr-only">Vitae</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <h1><a class="navbar-brand" href="index.html" style="font-family:站酷文艺体">LOVE CIGAR</a></h1>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+          <li><a class="page-scroll scroll active" href="#home">主页</a></li>
+          <li><a class="page-scroll scroll" href="#about">关于</a></li> 
+          <li><a class="page-scroll scroll" href="#port">相册</a></li>
+          <li><a class="page-scroll scroll" href="#edu">纪念日</a></li>
+          <li><a class="page-scroll scroll" href="#exp">纪念日</a></li>
+          <li><a class="page-scroll scroll" href="#contact">联系</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </div>
+    <!-- /.container --> 
+  </nav>
 </div>
+<!-- //header -->
+<div class="header jarallax" id="home">
+  <div class="container">
+    <div class="banner-text text-center">
+      <h2>Love Cigar-我们的Blog</h2>
+      <h3> - 爱情的意义 - </h3>
+      <p>爱情是场修行。短的是旅途，长的是人生。爱情，能让我们遇到更好的我们。 </p>
+      <div class="w3l-button banner-btn"> <a href="#">详细信息</a> </div>
+    </div>
+    <div class="w3-arrow bounce animated"> <a href="#about" class="scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a> </div>
+  </div>
+</div>
+<div class="about" id="about">
+  <div class="container">
+    <h3 class="w3l-heading">关于</h3>
+    <div class="col-md-4 w3-about-top"> <img src="uploads/allimg/191210/7.jpg" class="img-responsive" alt="about-img"/> </div>
+    <div class="col-md-8 w3l-about">
+      <div class="w3ls-heading">
+        <h2>We are Bitong & Cigar, here is our love blog.</h2>
+      </div>
+      <div class="w3ls-about-info">
+        <p> 这里是我们的Blog，我想把我们的点点滴滴记录在这里。<br>我们的故事从2018.05.03开始，<br>到现在时间还挺短，<br>但故事的未来，<br>我们相信会无限长。...</p>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+<!-- modal --> 
+<!-- //modal --> 
+<!-- Portfolio -->
+<div class="portfolio" id="port">
+  <div class="port-head">
+    <h3 class="w3l-heading">相册</h3>
+  </div>
+  <ul class="simplefilter">
+    <!--  <li class="active" data-filter="all">All</li>
+    <li data-filter="1">Design1</li>
+    <li data-filter="2">Design2</li>
+    <li data-filter="3">Design3</li>-->
+  </ul>
+  <div class="filtr-container"> <div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/191210/1.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/191210/1.jpg" class="img-responsive" alt="h" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/191210/2.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/191210/2.jpg" class="img-responsive" alt="g" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/191210/3.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/191210/3.jpg" class="img-responsive" alt="f" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/191210/4.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/191210/4.jpg" class="img-responsive" alt="e" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/191210/5.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/191210/5.jpg" class="img-responsive" alt="d" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/191210/6.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/191210/6.jpg" class="img-responsive" alt="c" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/191210/7.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/191210/7.jpg" class="img-responsive" alt="b" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+<div class="filtr-item gallery-t" data-category="1, 3" data-sort="Busy streets"> <a href="uploads/allimg/191210/8.jpg" class="b-link-stripe b-animate-go  thickbox">
+      <figure class="w3ls-gallery"> <img src="uploads/allimg/191210/8.jpg" class="img-responsive" alt="a" style="width:650px;height:250px;"/>
+        <figcaption class="w3layouts-caption">
+          <h3>my designs</h3>
+        </figcaption>
+      </figure>
+      </a> </div>
+
+    <div class="clearfix"> </div>
+  </div>
+</div>
+<!-- //Portfolio --> 
+<!--Education-->
+<div id="edu" class="agile-edu">
+  <div class="container">
+    <h3 class="w3l-heading">纪念日</h3>
+    <div class="work-info">
+      <div class="col-md-6 col-sm-6 col-xs-6 work-right work-right2"> </div>
+      <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+        <div class="col-md-6  col-sm-6 col-xs-6  work1">
+          <h4>相亲</h4>
+          <p>在爸妈店里趴窝的LQ和在家趴窝的GXJ被热心的清姐安排了个仓促且隆重的相亲.哇塞，你才咋滴，一见钟情昂。</p>
+        </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work2">
+          <h5> 2018.05.03</h5>
+          <span></span> </div>
+      </div>
+    </div>
+    <div class="work-info">
+      <div class="col-md-6  col-sm-6 col-xs-6"> </div>
+      <div class="col-md-6  col-sm-6 col-xs-6  work-right">
+        <div class="col-md-6  col-sm-6 col-xs-6 work2"> <span></span>
+          <h5>2018.10</h5>
+        </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work-right1">
+          <h4>第一次一起出行</h4>
+          <p>趁国庆节回家，蹭二姐二姐夫的车，一起去平山的XXX山里爬山，在玻璃吊桥上吓得要shi，被嘲笑了.</p>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <div class="work-sec-2">
+      <div class="work-info">
+        <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2 ">
+          <div class="col-md-6 col-sm-6 col-xs-6  work1">
+            <h4>咳咳</h4>
+            <p>所谓没谈过恋爱且脑回路异于常人的LQ，硬生生拖到这个时候才跟小姐姐表达确认关系，差点被拉黑呀.</p>
+          </div>
+          <div class="col-md-6  col-sm-6 col-xs-6  work2">
+            <h5> 2018.11</h5>
+            <span></span> </div>
+        </div>
+      </div>
+      <div class="work-info">
+        <div class="col-md-6  col-sm-6 col-xs-6 "> </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work-right">
+          <div class="col-md-6  col-sm-6 col-xs-6  work2"> <span></span>
+            <h5>2019.01.05</h5>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6  work-right1">
+            <h4>大连</h4>
+            <p>G老师第一次来大连，L鲜肉极度开心，又极度克制~大冬天的领着人家小姐姐去海边吹海fong~小姐姐当时心里极度吐槽吧，哈哈哈</p>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+      <span class="edu-circle"></span> </div>
+  </div>
+</div>
+<!--//Education-->
+<div class="agile-border"> <span></span> </div>
+<!-- work-experience-->
+<div id="exp" class="agile-edu exp">
+  <div class="container">
+    <h3 class="w3l-heading">纪念日</h3>
+    <div class="work-info">
+      <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2"> </div>
+      <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+        <div class="col-md-6  col-sm-6 col-xs-6  work1">
+          <h4>等等</h4>
+          <p>着急上线，等等我慢慢填哦，带上G老师和我一起回忆.</p>
+        </div>
+        <div class="col-md-6  col-sm-6 col-xs-6 work2">
+          <h5> 等等</h5>
+          <span></span> </div>
+      </div>
+    </div>
+    <div class="work-info">
+      <div class="col-md-6  col-sm-6 col-xs-6 "> </div>
+      <div class="col-md-6  col-sm-6 col-xs-6 work-right">
+        <div class="col-md-6 col-sm-6 col-xs-6 work2"> <span></span>
+          <h5>等等</h5>
+        </div>
+        <div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+          <h4>等等</h4>
+          <p>着急上线，等等我慢慢填哦，带上G老师和我一起回忆.</p>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+    <div class="work-2">
+      <div class="work-info">
+        <div class="col-md-6  col-sm-6 col-xs-6 work-right work-right2"> </div>
+        <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2 ">
+          <div class="col-md-6  col-sm-6 col-xs-6 work1">
+            <h4>等等</h4>
+            <p>着急上线，等等我慢慢填哦，带上G老师和我一起回忆.</p>
+          </div>
+          <div class="col-md-6  col-sm-6 col-xs-6  work2">
+            <h5>等等</h5>
+            <span></span> </div>
+        </div>
+      </div>
+      <div class="work-info">
+        <div class="col-md-6  col-sm-6 col-xs-6 "> </div>
+        <div class="col-md-6  col-sm-6 col-xs-6 work-right">
+          <div class="col-md-6  col-sm-6 col-xs-6 work2"> <span></span>
+            <h5>等等</h5>
+          </div>
+          <div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+            <h4>等等</h4>
+            <p>着急上线，等等我慢慢填哦，带上G老师和我一起回忆.</p>
+          </div>
+        </div>
+        <div class="clearfix"> </div>
+      </div>
+      <span class="edu-circle"></span> </div>
+  </div>
+</div>
+<!--//work-experience--> 
+<!-- contact -->
+<div id="contact" class="w3_agileits-contact">
+  <div class="container">
+    <h3 class="w3l-heading">联系</h3>
+    <div class="w3_agile-contact  jarallax text-center">
+      <form action="http://www.23.r1s.net/plus/diy.php" enctype="multipart/form-data" method="post">
+        <input type="hidden" name="action" value="post" />
+        <input type="hidden" name="diyid" value="1" />
+        <input type="hidden" name="do" value="2" />
+        <input type="text" placeholder="姓名" name="xingming" class="name" required>
+        <input type="text" placeholder="电话" name="18716393365" class="name" required>
+        <input type="email" placeholder="Email" name="youzheng" class="email" required>
+        <textarea name="liuyan" placeholder="内容"></textarea>
+        <input type="hidden" name="dede_fields" value="xingming,text;shouji,text;youzheng,text;liuyan,text" />
+        <input type="hidden" name="dede_fieldshash" value="28c4bc5569861f12830a08072eb797a0" />
+        <input type="submit" value="提交">
+      </form>
+      <h4>or</h4>
+      <a href="mailto:libitong@yeah.net">libitong@yeah.net</a>
+      <h5>135XXXX7831</h5>
+      <ul class="social-icons-w3_agile">
+        <li><a href="#" class="fa fa-facebook icon icon-border facebook"> </a></li>
+        <li><a href="#" class="fa fa-twitter icon icon-border twitter"> </a></li>
+        <li><a href="#" class="fa fa-google-plus icon icon-border googleplus"> </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- footer -->
+<div class="agileits_w3layouts-footer text-center">
+  <div class="container">
+    <p>Copyright @ 2018-forever <a href="http://www.lovecigar.cn/" target="_blank">Love Cigar</a> All Rights Reserved. <a href="http://www.lovecigar.cn/" target="_blank">Power by Love Cigar</a></p>
+  </div>
+</div>
+<!-- //footer --> 
+<!-- //contact --> 
+<!-- PopUp-Box-JavaScript --> 
+<script src="skin/js/jquery.chocolat.js"></script> 
+<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script> 
+<!-- //PopUp-Box-JavaScript --> 
+<!-- fliter-JavaScript --> 
+<script src="skin/js/jquery.filterizr.js"></script> 
+<script src="skin/js/controls.js"></script> 
+<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script> 
+<!-- //fliter-JavaScript --> 
+<script src="skin/js/jarallax.js"></script> 
+<script src="skin/js/SmoothScroll.min.js"></script> 
+<script type="text/javascript">
+	/* init Jarallax */
+	$('.jarallax').jarallax({
+		speed: 0.5,
+		imgWidth: 1366,
+		imgHeight: 768
+	})
+</script> 
+<!-- start-smoth-scrolling --> 
+<script type="text/javascript" src="skin/js/easing.js"></script> 
+<!-- //here ends scrolling icon -->
 </body>
 </html>
